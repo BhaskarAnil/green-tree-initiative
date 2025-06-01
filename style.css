@@ -1,0 +1,594 @@
+/* global*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    font-family: Helvetica;
+    line-height: 20px;
+}
+
+h2 {
+    line-height: 2rem;
+}
+
+.ul {
+    margin: 0;
+    padding: 0;
+}
+
+.dark-box {
+    background-color: #000;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    position: absolute;
+    top: -25px;
+    left: 10vh;
+}
+
+.white-box {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 25px 10px 25px;
+    position: absolute;
+    top: -25px;
+    left: 10vh;
+}
+
+/* -- header--*/
+
+header {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 85%;
+    margin: auto;
+    opacity: 1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar p {
+    display: flex;
+    align-items: center;
+    color: #354463;
+    font-size: 1.15rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    list-style: none;
+}
+
+nav ul li {
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+}
+
+header .btn {
+    display: flex;
+    justify-content: center;
+    margin: 0.8rem;
+}
+
+.btn button {
+    border: 0;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: #C1F7D5;
+    border-radius: 6.25rem;
+
+    /* -----banner--- */
+}
+
+.banner {
+    background: transparent url(assets/assets/home/annie-spratt-135307-unsplash@3x.png) no-repeat;
+    background-position-x: 80%;
+    background-size: cover;
+    opacity: 0.76;
+    height: 81.5vh;
+}
+
+.banner-contents {
+    padding: 10%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-hashtag {
+    display: flex;
+    flex: 1;
+}
+
+.banner-hashtag img {
+    height: 200px;
+    width: 200px;
+
+}
+
+.banner_message-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_message {
+    padding: 10vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+    color: #000000;
+    position: relative;
+}
+
+.banner_message p {
+    flex: 5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font: bold 1.35rem Helvetica;
+}
+
+.banner_message a {
+    flex: 1;
+    text-align: center;
+    font: 1rem Helvetica;
+    padding: 10px;
+}
+
+/* take action */
+.take-action-1 {
+    background-color: #C1F7D5;
+    padding: 30px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+
+.action {
+
+    margin: 1vh;
+    color: #354463;
+
+}
+
+.action h2 {
+    font-size: 1.25rem;
+}
+
+.action p {
+    font-size: 0.85rem;
+}
+
+.take-action-1 .dark-box {
+    left: 31vw;
+}
+
+/* what we do */
+
+.what-we-do {
+    background-color: #354463;
+    padding: 10%;
+}
+
+.what-we-do-msg {
+    position: relative;
+    color: #fff;
+    margin-bottom: 10%;
+}
+
+.what-we-do-msg p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10% 0 10% 0;
+    line-height: 28px;
+}
+
+.missions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission {
+    background-color: #fff;
+    margin: 10% 0 10% 0;    padding: 0px 20px 20px 20px;
+
+}
+
+.mission-content {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    position: relative;
+}
+
+.mission img {
+    position: relative;
+    top: -5vw;
+    right: -5;
+    width: 100%;
+}
+
+.mission p {
+    text-align: center;
+    font-size: 0.85rem;
+    margin: 2%;
+}
+
+.mission h2 {
+    text-align: center;
+    font-size: 1.15rem;
+}
+
+.mission button {
+    margin: 10px auto;
+    font-size: 1rem;
+    width: 50%;
+    color: #354463;
+    font-weight: bold;
+    padding: 3% 8% 3% 8%;
+    background-color: #C1F7D5;
+    border: 0;
+    border-radius: 100px;
+}
+
+.did-you-know{
+    background: transparent url(assets/assets/home/did-you-know-background@3x.png) no-repeat;
+    background-size: cover;
+    opacity: 1;
+    width: 100vw;
+    height: 1500px;
+    padding: 5% 10%;
+}
+.did-you-know-contents{
+    display: flex;
+    flex-direction: column;
+}
+.did-you-know-contents .heading{
+    margin-bottom: 8vh;
+}
+.did-you-know-contents .heading img{
+    width: 50vw;
+}
+.did-you-know-contents button{
+    border: 0;
+    font-size: 1rem;
+    width: 60%;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: #C1F7D5;
+    border-radius: 6.25rem;
+
+}
+.did-you-know-cards .card{
+    position: relative;
+    background-color: #fff;
+    padding: 5%;
+    margin-bottom:1rem ;
+    display: flex;
+    justify-content: space-around;
+}
+.para-head{
+    font-weight: bold;
+    font-size: 1.45rem;
+    line-height: 3.5rem;
+}
+.did-you-know-cards{
+    position: relative;
+
+}
+.card-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-bg{
+    background-color: #C1F7D5;
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-icons img{
+        height: 16px;
+        width: 13px;
+}
+
+/* ----------------------------media queries for tablets -------------------------*/
+
+@media (min-width : 768px) {
+
+    /* header for tablets */
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar {
+        width: 50%;
+        flex-direction: column;
+    }
+
+    .navbar p b {
+        font-size: 1.35rem;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav ul li {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+    .btn button {
+        font-size: 1.2rem;
+    }
+
+    /* -----banner for tablets--- */
+    .banner {
+        height: 85.9vh;
+    }
+
+    .banner-contents {
+        padding: 8vh;
+    }
+
+    .banner-hashtag img {
+        height: 200px;
+        width: 200px;
+
+    }
+
+    .banner_message p {
+        font-size: 2.3rem;
+    }
+
+    .banner_message a {
+        font-size: 1.2rem;
+    }
+
+    .the-issue {
+        font-size: 1rem;
+        left: 10vh;
+    }
+
+    /* take action  for tablet*/
+    .take-action-1 {
+        padding: 30px;
+    }
+
+    .action {
+        margin: 2vh 4vh 2vh 4vh;
+    }
+
+    .action h2 {
+        font-size: 1.5rem;
+    }
+
+    .action p {
+        font-size: 1rem;
+    }
+
+    .take-action-1 .dark-box {
+        left: 40vw;
+    }
+
+    /* what we do section  for tablets */
+    .what-we-do-msg p {
+        font-size: 2.25rem;
+        line-height: 3rem;
+        padding: 5%;
+
+    }
+
+    .mission-content {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        align-items: start;
+
+    }
+
+    .mission-content img {
+        position: relative;
+        top: -5vw;
+        order: 1;
+        min-height:60%;
+        min-width: 60%;
+
+    }
+
+    .mission-content button {
+        order: 2;
+        width: 160px;
+    }
+
+    .mission-content-text {
+        padding: 30px;
+        align-self: center;
+        grid-row: span 2;
+        order: 2;
+    }
+
+    .mission-content-text h2 {
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+        line-height: 28px;
+    }
+
+    .mission-content-text p {
+        font-size: 1rem;
+        line-height: 30px;
+
+    }
+
+
+}
+
+/* ----------------------------media queries for laptops-------------------------*/
+
+@media (min-width : 1199px) {
+
+    /* header for laptops */
+    header {
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .navbar {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar p {
+        display: flex;
+        align-items: center;
+    }
+
+    nav {
+        display: flex;
+        width: 35%;
+        justify-content: flex-end;
+    }
+
+    nav ul {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    /* -----banner for laptops--- */
+    .banner {
+        height: 88vh;
+    }
+
+    .banner-contents {
+        padding-top: 20vh;
+        flex-direction: row-reverse;
+    }
+
+    .banner_message-container {
+        align-items: flex-start;
+    }
+
+    .banner_message {
+
+        justify-content: center;
+    }
+
+    .banner_message p {
+        font-size: 2.8rem;
+    }
+
+    .banner-hashtag {
+        justify-content: center;
+
+    }
+
+    .banner-hashtag img {
+        height: 250px;
+        width: 250px;
+    }
+
+    /* take action  for laptops*/
+
+    .take-action-1 {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 30px;
+    }
+
+    .action {
+        margin: 2vh 4vh 2vh 4vh;
+    }
+
+    .action h2 {
+        line-height: 3rem;
+        font-size: 1.75rem;
+    }
+
+    .action p {
+        font-size: 1rem;
+    }
+
+    .take-action-1 .dark-box {
+        left: 45vw;
+    }
+/* what we do section for laptops */
+   .what-we-do{
+    padding: 4% 4% 1%;
+   }
+   .what-we-do-msg p{
+    font-size: 2.75rem;
+    line-height: 3.3rem;
+    padding-bottom: 0;
+   }
+   .missions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+   .mission{
+    margin: 0 3%;
+   }
+   
+   .mission-content{
+    grid-template-columns: none;
+   }
+   .missions:first-child {
+    height: 50%;
+    width:20% ;
+   }
+   .mission-content img{
+    right: -15%;
+   }
+   .mission-content-text{
+    padding-top: 0;
+   }
+   .mission-content-text h2{
+    font-size: 1.75rem;
+    list-style: 2.25rem;
+   }
+   .mission-content button{
+    width: 20vh;
+
+   }
+
+ 
+
+}
