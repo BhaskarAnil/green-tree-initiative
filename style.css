@@ -258,14 +258,7 @@ header .btn {
     border-radius: 100px;
 }
 
-.did-you-know{
-    background: transparent url(assets/assets/home/did-you-know-background@3x.png) no-repeat;
-    background-size: cover;
-    background-position-x: 40%;
-    opacity: 1;
-    width: 100%;
-    padding: 10% 10%;
-}
+
 .did-you-know-contents{
 
     display: flex;
@@ -300,6 +293,9 @@ header .btn {
     font-weight: bold;
     font-size: 1.45rem;
     line-height: 3.5rem;
+}
+.para-text{
+    margin-right: 2px;
 }
 .did-you-know-cards{
     position: relative;
