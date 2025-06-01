@@ -258,7 +258,15 @@ header .btn {
     border-radius: 100px;
 }
 
-
+.did-you-know{
+    background: transparent url(assets/assets/home/did-you-know-background@3x.png) no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: 40%;
+    opacity: 1;
+    width: 100%;
+    padding: 10% 10%;
+}
 .did-you-know-contents{
 
     display: flex;
