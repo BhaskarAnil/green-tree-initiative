@@ -261,14 +261,16 @@ header .btn {
 .did-you-know{
     background: transparent url(assets/assets/home/did-you-know-background@3x.png) no-repeat;
     background-size: cover;
+    background-position-x: 40%;
     opacity: 1;
-    width: 100vw;
-    height: 1500px;
-    padding: 5% 10%;
+    width: 100%;
+    padding: 10% 10%;
 }
 .did-you-know-contents{
+
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 .did-you-know-contents .heading{
     margin-bottom: 8vh;
@@ -454,7 +456,15 @@ header .btn {
         line-height: 30px;
 
     }
-
+ /* did you know contents for tablets */
+ .did-you-know-contents{
+    flex-direction: row;
+}
+.did-you-know-contents .heading img{
+    max-height: 300px;
+    max-width: 300px;
+    margin-bottom: 50px ;
+}
 
 }
 
@@ -589,6 +599,34 @@ header .btn {
 
    }
 
+   /* did-you-know section for laptops */
+
+   .did-you-know{
+    background-position-y: center;
+    padding: 5%;
+   }
+   .did-you-know-contents .heading img{
+            max-height: 400px;
+            max-width: 400px;
+            margin-bottom: 0%;
+   }
+   .icon-bg{
+    height: 50px;
+    width: 50px;
+}
+
+.card-icons img{
+        height: 26px;
+        width: 23px;
+}
+   .para-head{
+        font-size: 2.75rem;
+        line-height: 3.5rem;
+   }
+   .para-text{
+        font-size: 1.25rem;
+        line-height: 1.8rem;
+   }
  
 
 }
