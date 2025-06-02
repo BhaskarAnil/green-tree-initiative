@@ -25,7 +25,7 @@ h2 {
 }
 
 .dark-box {
-    background-color: #000;
+    background-color:#354463;
     color: white;
     padding: 10px 25px 10px 25px;
     position: absolute;
@@ -35,7 +35,7 @@ h2 {
 
 .white-box {
     background-color: #ffffff;
-    color: rgb(0, 0, 0);
+    color:#354463;
     padding: 10px 25px 10px 25px;
     position: absolute;
     top: -25px;
@@ -515,6 +515,21 @@ header .btn {
     grid-column: 1/2;
     grid-row: 2/3;
 
+}
+.contact-us .main-text{
+    margin-top: 10px;
+    color: #354463;
+    font-weight: bold;
+}
+.follow-us .main-text{
+    margin-top: 10px;
+    color: #354463;
+    font-weight: bold;
+}
+.learn-more .main-text{
+    margin-top: 10px;
+    color: #354463;
+    font-weight: bold;
 }
 
 .footer .logo-text {
