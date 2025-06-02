@@ -395,7 +395,7 @@ header .btn {
 }
 
 .lets-take-action .heading {
-    font-family: 'Permanent Marker';
+    font-family: Flood Std;
     color: #fff;
     font-size: 2.75rem;
     line-height: 2.9rem;
@@ -506,19 +506,20 @@ header .btn {
 
 }
 
-.learn-more {
+.follow-us {
     grid-column: 2/3;
     grid-row: 2/3;
 }
 
-.follow-us {
+.learn-more {
     grid-column: 1/2;
     grid-row: 2/3;
 
 }
 
 .footer .logo-text {
-    font-weight: bold;
+    font-family : Flood Std;
+    font-weight: 500;
     font-size: 2.25rem;
     line-height: 2.9rem;
     grid-column: 2/3;
@@ -770,12 +771,12 @@ header .btn {
 
     }
 
-    .learn-more {
+    .follow-us {
         grid-column: 3/4;
         grid-row: 1/2;
     }
 
-    .follow-us {
+    .learn-more {
         grid-column: 2/3;
         grid-row: 2/3;
 
@@ -1049,7 +1050,7 @@ header .btn {
     /* footer section for the tablets */
     .footer {
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-        gap: 15px;
+        gap: 9%;
         row-gap: 0;
         padding: 4% 10%;
     }
