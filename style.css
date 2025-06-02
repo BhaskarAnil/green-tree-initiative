@@ -42,6 +42,18 @@ h2 {
     left: 10vh;
 }
 
+.readmore {
+    margin: 10px auto;
+    font-size: 1rem;
+    width: 50%;
+    color: #354463;
+    font-weight: bold;
+    padding: 3% 8% 3% 8%;
+    background-color: #C1F7D5;
+    border: 0;
+    border-radius: 100px;
+}
+
 /* -- header--*/
 
 header {
@@ -218,7 +230,8 @@ header .btn {
 
 .mission {
     background-color: #fff;
-    margin: 10% 0 10% 0;    padding: 0px 20px 20px 20px;
+    margin: 10% 0 10% 0;
+    padding: 0px 20px 20px 20px;
 
 }
 
@@ -246,19 +259,7 @@ header .btn {
     font-size: 1.15rem;
 }
 
-.mission button {
-    margin: 10px auto;
-    font-size: 1rem;
-    width: 50%;
-    color: #354463;
-    font-weight: bold;
-    padding: 3% 8% 3% 8%;
-    background-color: #C1F7D5;
-    border: 0;
-    border-radius: 100px;
-}
-
-.did-you-know{
+.did-you-know {
     background: transparent url(assets/assets/home/did-you-know-background@3x.png) no-repeat;
     background-size: cover;
     background-position-y: bottom;
@@ -267,19 +268,23 @@ header .btn {
     width: 100%;
     padding: 10% 10%;
 }
-.did-you-know-contents{
+
+.did-you-know-contents {
 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.did-you-know-contents .heading{
+
+.did-you-know-contents .heading {
     margin-bottom: 8vh;
 }
-.did-you-know-contents .heading img{
+
+.did-you-know-contents .heading img {
     width: 50vw;
 }
-.did-you-know-contents button{
+
+.did-you-know-contents button {
     border: 0;
     font-size: 1rem;
     width: 60%;
@@ -289,33 +294,39 @@ header .btn {
     border-radius: 6.25rem;
 
 }
-.did-you-know-cards .card{
+
+.did-you-know-cards .card {
     position: relative;
     background-color: #fff;
     padding: 5%;
-    margin-bottom:1rem ;
+    margin-bottom: 1rem;
     display: flex;
     justify-content: space-around;
 }
-.para-head{
+
+.para-head {
     font-weight: bold;
     font-size: 1.45rem;
     line-height: 3.5rem;
 }
-.para-text{
+
+.para-text {
     margin-right: 2px;
 }
-.did-you-know-cards{
+
+.did-you-know-cards {
     position: relative;
 
 }
-.card-icons{
+
+.card-icons {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
-.icon-bg{
+
+.icon-bg {
     background-color: #C1F7D5;
     border-radius: 100px;
     height: 30px;
@@ -325,10 +336,196 @@ header .btn {
     align-items: center;
 }
 
-.card-icons img{
-        height: 16px;
-        width: 13px;
+.card-icons img {
+    height: 16px;
+    width: 13px;
 }
+
+/* stories section */
+.stories {
+    display: flex;
+    margin: 10%;
+    flex-direction: column;
+}
+
+.stories-img {
+    flex: 1;
+    position: relative;
+    margin-bottom: 2vh;
+}
+
+.stories-img img {
+    width: 100%;
+    height: 80%;
+}
+
+.stories-content {
+    flex: 1;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stories-text {
+    text-align: center;
+    background-color: #354463;
+    padding: 6%;
+    color: #fff;
+}
+
+.stories-text .main-text {
+    font-weight: bold;
+    font-size: 1.45rem;
+    line-height: 1.75rem;
+}
+
+.stories-text .sub-text {
+    font-size: 0.75rem;
+}
+
+.stories-content .readmore {
+    width: 35vw;
+}
+
+/* lets take an action section */
+.lets-take-action {
+    background-color: #354463;
+}
+
+.lets-take-action .heading {
+    font-family: 'Permanent Marker';
+    color: #fff;
+    font-size: 2.75rem;
+    line-height: 2.9rem;
+    font-weight: bolder;
+    display: flex;
+    text-align: center;
+    padding: 5% 10% 10% 10%;
+}
+
+.lets-take-action-card-1,
+.lets-take-action-card-2 {
+    position: relative;
+    background-color: #354463;
+    padding: 0% 10% 10% 10%;
+    margin: 0%;
+}
+
+.card-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+
+.card-contents .main-text {
+    font-size: 1.4rem;
+    line-height: 1.75rem;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    margin: 2%;
+}
+
+.card-contents .sub-text {
+    font-size: 0.9rem;
+    line-height: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.lets-take-action-card-1 .white-box,
+.lets-take-action-card-2 .white-box {
+    left: 30%;
+}
+
+/* subscribe section */
+.subscribe {
+    background-color: #C1F7D5;
+    padding: 10%;
+}
+
+.subscribe .text {
+    color: #354463;
+    font-size: 1.25;
+    line-height: 1.75;
+    font-weight: bold;
+}
+
+.take-input {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.email-input {
+    text-align: center;
+    width: 65%;
+    border: 0;
+    margin-right: 5px;
+    border-radius: 100px;
+}
+
+.subscribe-button {
+    width: 30%;
+    padding: 2%;
+    border-radius: 100px;
+    border: none;
+    background-color: #354463;
+    color: #C1F7D5;
+}
+
+.footer {
+    padding: 10%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.footer .heading {
+    padding-right: 50px;
+    color: #354463;
+    font-weight: bold;
+    font-size: 1.15rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.contact-us {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+
+.learn-more {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.follow-us {
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+}
+
+.footer .logo-text {
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 2.9rem;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+
 
 /* ----------------------------media queries for tablets -------------------------*/
 
@@ -432,12 +629,12 @@ header .btn {
         position: relative;
         top: -5vw;
         order: 1;
-        min-height:60%;
+        min-height: 60%;
         min-width: 60%;
 
     }
 
-    .mission-content button {
+    .readmore {
         order: 2;
         width: 160px;
     }
@@ -460,15 +657,135 @@ header .btn {
         line-height: 30px;
 
     }
- /* did you know contents for tablets */
- .did-you-know-contents{
-    flex-direction: row;
-}
-.did-you-know-contents .heading img{
-    max-height: 300px;
-    max-width: 300px;
-    margin-bottom: 50px ;
-}
+
+    /* did you know contents for tablets */
+    .did-you-know-contents {
+        flex-direction: row;
+    }
+
+    .did-you-know-contents .heading img {
+        max-height: 300px;
+        max-width: 300px;
+        margin-bottom: 50px;
+    }
+
+    /* stories section for tablets */
+    .stories-img img {
+        width: 80%;
+    }
+
+    .stories-content {
+        position: relative;
+
+    }
+
+    .stories-text {
+        width: 80%;
+        position: absolute;
+        top: -10vh;
+        right: -2%;
+    }
+
+    .stories-content .readmore {
+        margin-top: 20vh;
+        padding: 1.5%;
+        width: 20%;
+    }
+
+    /* lets take an action section for tablets */
+    .lets-take-action .heading {
+        font-size: 2.75rem;
+        line-height: 3rem;
+    }
+
+    .lets-take-action-card-1 {
+        display: flex;
+        flex-direction: row-;
+        gap: 10%;
+        height: auto;
+    }
+
+    .card-contents .main-text {
+        margin-top: 30px;
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+
+    .lets-take-action-card-1 .card-img {
+        width: auto;
+    }
+
+    .card-contents .readmore {
+        width: 50%;
+    }
+
+    .card-contents .sub-text {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .lets-take-action-card-2 {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 5%;
+    }
+
+    .lets-take-action-card-1 .white-box {
+        left: auto;
+        right: 30%;
+    }
+
+    .lets-take-action-card-2 .white-box {
+        left: 20%;
+    }
+
+    /* subscribe section for tablets */
+    .subscribe {
+        padding: 7%;
+    }
+
+    .subscribe .text {
+        width: 60%;
+        margin-bottom: 2%;
+    }
+
+    /* footer section for the tablets */
+    .footer {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+        padding: 4% 10%;
+    }
+
+    .footer .heading {
+        font-size: 1.45rem;
+        line-height: 1.75rem;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .contact-us {
+        grid-column: 2/3;
+        grid-row: 1/2;
+
+    }
+
+    .learn-more {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    .follow-us {
+        grid-column: 2/3;
+        grid-row: 2/3;
+
+    }
+
+    .footer .logo-text {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+
 
 }
 
@@ -563,74 +880,208 @@ header .btn {
     .take-action-1 .dark-box {
         left: 45vw;
     }
-/* what we do section for laptops */
-   .what-we-do{
-    padding: 4% 4% 1%;
-   }
-   .what-we-do-msg p{
-    font-size: 2.75rem;
-    line-height: 3.3rem;
-    padding-bottom: 0;
-   }
-   .missions{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-   }
-   .mission{
-    margin: 0 3%;
-   }
-   
-   .mission-content{
-    grid-template-columns: none;
-   }
-   .missions:first-child {
-    height: 50%;
-    width:20% ;
-   }
-   .mission-content img{
-    right: -15%;
-   }
-   .mission-content-text{
-    padding-top: 0;
-   }
-   .mission-content-text h2{
-    font-size: 1.75rem;
-    list-style: 2.25rem;
-   }
-   .mission-content button{
-    width: 20vh;
 
-   }
+    /* what we do section for laptops */
+    .what-we-do {
+        padding: 4% 4% 1%;
+    }
 
-   /* did-you-know section for laptops */
+    .what-we-do-msg p {
+        font-size: 2.75rem;
+        line-height: 3.3rem;
+        padding-bottom: 0;
+    }
 
-   .did-you-know{
-    background-position-y: center;
-    padding: 5%;
-   }
-   .did-you-know-contents .heading img{
-            max-height: 400px;
-            max-width: 400px;
-            margin-bottom: 0%;
-   }
-   .icon-bg{
-    height: 50px;
-    width: 50px;
-}
+    .missions {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
-.card-icons img{
+    .mission {
+        margin: 0 3%;
+    }
+
+    .mission-content {
+        grid-template-columns: none;
+    }
+
+    .missions:first-child {
+        height: 50%;
+        width: 20%;
+    }
+
+    .mission-content img {
+        right: -15%;
+    }
+
+    .mission-content-text {
+        padding-top: 0;
+    }
+
+    .mission-content-text h2 {
+        font-size: 1.75rem;
+        list-style: 2.25rem;
+    }
+
+    .readmore {
+        width: 20vh;
+
+    }
+
+    /* did-you-know section for laptops */
+
+    .did-you-know {
+        background-position-y: center;
+        padding: 5%;
+    }
+
+    .did-you-know-contents .heading img {
+        max-height: 400px;
+        max-width: 400px;
+        margin-bottom: 0%;
+    }
+
+    .icon-bg {
+        height: 50px;
+        width: 50px;
+    }
+
+    .card-icons img {
         height: 26px;
         width: 23px;
-}
-   .para-head{
+    }
+
+    .para-head {
         font-size: 2.75rem;
         line-height: 3.5rem;
-   }
-   .para-text{
+    }
+
+    .para-text {
         font-size: 1.25rem;
         line-height: 1.8rem;
-   }
- 
+    }
+
+    /* stories section for laptops */
+    .stories {
+        flex-direction: row-reverse;
+        margin: 5%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .stories-img img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .stories-content {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .stories-text {
+        width: 95%;
+        height: 80%;
+        top: 0;
+        right: -5vw;
+    }
+
+    .stories-text .main-text {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+
+    .stories-content .readmore {
+        margin-top: 40vh;
+    }
+
+    /* lets take an action section for laptopts */
+    .lets-take-action .heading {
+        font-size: 4.5rem;
+        line-height: 4.75rem;
+    }
+
+    .lets-take-action-card-1 {
+        display: flex;
+        flex-direction: row-;
+        gap: 10%;
+        height: auto;
+    }
+
+    .card-contents .main-text {
+        margin-top: 30px;
+        font-size: 2.75rem;
+        line-height: 4rem;
+    }
+
+    .card-contents .readmore {
+        width: 30%;
+        padding: 2%;
+        margin-top: 30px;
+    }
+
+    .card-contents .sub-text {
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+
+    /* subscribe section for laptops */
+    .subscribe {
+        padding: 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .subscribe .text {
+        width: 50%;
+        font-size: 1.75rem;
+        line-height: 1.5;
+    }
+
+    .subscribe .take-input {
+        width: 45%;
+        height: 50%;
+        padding-top: 2%;
+    }
+
+    /* footer section for the tablets */
+    .footer {
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        gap: 15px;
+        row-gap: 0;
+        padding: 4% 10%;
+    }
+
+    .footer .heading {
+        grid-row: none;
+        grid-column: 1/2;
+    }
+
+    .contact-us {
+        grid-row: none;
+        grid-column: 2/3;
+
+    }
+
+    .learn-more {
+        grid-row: none;
+        grid-column: 3/4;
+    }
+
+    .follow-us {
+        grid-row: none;
+        grid-column: 4/5;
+
+    }
+
+    .footer .logo-text {
+        grid-row: none;
+        grid-column: 5/6;
+    }
+
+
+
 
 }
