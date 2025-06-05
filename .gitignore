@@ -1,0 +1,31 @@
+# Node modules (if ever added)
+node_modules/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# Environment files (if ever added)
+.env
+.env.local
+.env.*.local
+
+# SASS/SCSS cache (if using preprocessor)
+.sass-cache/
+
+# Compiled CSS from preprocessors (optional)
+*.css.map
+
+# Output/dist folder (if generated)
+dist/
+build/
