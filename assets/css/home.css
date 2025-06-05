@@ -699,10 +699,15 @@ header .btn {
 
     .stories-content {
         position: relative;
+        
 
     }
 
     .stories-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         width: 80%;
         position: absolute;
         top: -10vh;
@@ -710,7 +715,7 @@ header .btn {
     }
 
     .stories-content .readmore {
-        margin-top: 25vh;
+        margin-top: 12vh;
         padding: 1.5%;
         width: 20%;
     }
@@ -1011,7 +1016,7 @@ header .btn {
 
     .stories-text {
         width: 95%;
-        height: 80%;
+        
         top: 0;
         right: -5vw;
     }
