@@ -77,7 +77,8 @@ form button {
     font-size: 1.15rem;
     border-radius: 100px;
 }
-option{
+
+option {
     background-color: #354463;
 }
 
@@ -146,7 +147,8 @@ option{
         font-size: 2.75rem;
         line-height: 2.9rem;
     }
-    .input-field{
+
+    .input-field {
         font-size: 1.25rem;
         line-height: 1.75rem;
     }

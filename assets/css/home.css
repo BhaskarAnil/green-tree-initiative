@@ -25,7 +25,7 @@ h2 {
 }
 
 .dark-box {
-    background-color:#354463;
+    background-color: #354463;
     color: white;
     padding: 10px 25px 10px 25px;
     position: absolute;
@@ -35,7 +35,7 @@ h2 {
 
 .white-box {
     background-color: #ffffff;
-    color:#354463;
+    color: #354463;
     padding: 10px 25px 10px 25px;
     position: absolute;
     top: -25px;
@@ -525,24 +525,27 @@ header .btn {
     grid-row: 2/3;
 
 }
-.contact-us .main-text{
+
+.contact-us .main-text {
     margin-top: 10px;
     color: #354463;
     font-weight: bold;
 }
-.follow-us .main-text{
+
+.follow-us .main-text {
     margin-top: 10px;
     color: #354463;
     font-weight: bold;
 }
-.learn-more .main-text{
+
+.learn-more .main-text {
     margin-top: 10px;
     color: #354463;
     font-weight: bold;
 }
 
 .footer .logo-text {
-    font-family : Flood Std;
+    font-family: Flood Std;
     font-weight: 500;
     font-size: 2.25rem;
     line-height: 2.9rem;
@@ -586,7 +589,7 @@ header .btn {
     }
 
     /* -----banner for tablets--- */
-   
+
 
     .banner-contents {
         padding: 8vh;
@@ -597,7 +600,7 @@ header .btn {
         width: 200px;
 
     }
-  
+
     .banner_message p {
         font-size: 2.3rem;
     }
@@ -699,7 +702,7 @@ header .btn {
 
     .stories-content {
         position: relative;
-        
+
 
     }
 
@@ -850,7 +853,8 @@ header .btn {
         display: flex;
         align-items: center;
     }
-    .btn{
+
+    .btn {
         width: 30%;
     }
 
@@ -1016,7 +1020,7 @@ header .btn {
 
     .stories-text {
         width: 95%;
-        
+
         top: 0;
         right: -5vw;
     }
